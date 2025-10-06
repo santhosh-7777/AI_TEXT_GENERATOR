@@ -1,3 +1,12 @@
+# Streamlit frontend
 streamlit==1.50.0
+
+# Transformers for text generation & sentiment analysis
 transformers==4.57.0
-torch==2.8.0
+
+# CPU-only PyTorch (avoids CUDA issues on cloud)
+torch==2.8.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+# Optional but useful dependencies
+numpy
+pandas
